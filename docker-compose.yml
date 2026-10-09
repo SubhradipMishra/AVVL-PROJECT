@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  aavail-revenue-api:
+    build: .
+    container_name: aavail_revenue_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./models:/app/models
+    environment:
+      - LOG_DIR=/app/logs
+      - MODEL_PATH=/app/models/aavail_model.joblib
+    restart: unless-stopped

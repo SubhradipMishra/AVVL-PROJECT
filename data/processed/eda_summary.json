@@ -1,0 +1,282 @@
+{
+  "total_countries_available": 13,
+  "top_10_countries_by_revenue": [
+    "united_kingdom",
+    "united_states",
+    "singapore",
+    "germany",
+    "france",
+    "eire",
+    "spain",
+    "netherlands",
+    "australia",
+    "belgium"
+  ],
+  "date_range": [
+    "2018-01-01",
+    "2019-12-21"
+  ],
+  "country_profiles": {
+    "all": {
+      "mean_daily_revenue": 1527.02,
+      "std_daily_revenue": 388.48,
+      "median_daily_revenue": 1473.39,
+      "weekday_mean": 1391.51,
+      "weekend_mean": 1867.44,
+      "weekend_lift_pct": 34.2,
+      "autocorr_7_day": 0.814,
+      "autocorr_30_day": 0.29,
+      "trend_slope_per_day": 1.1755,
+      "trend_r2": 0.3961,
+      "outliers": {
+        "q25": 1246.62,
+        "q75": 1740.81,
+        "iqr": 494.19,
+        "outlier_count": 17,
+        "outlier_pct": 2.36,
+        "upper_threshold": 2482.11
+      },
+      "total_revenue": 1099453.7,
+      "total_purchases": 125430,
+      "total_views": 313618
+    },
+    "united_kingdom": {
+      "mean_daily_revenue": 430.09,
+      "std_daily_revenue": 127.97,
+      "median_daily_revenue": 408.54,
+      "weekday_mean": 394.51,
+      "weekend_mean": 519.49,
+      "weekend_lift_pct": 31.68,
+      "autocorr_7_day": 0.574,
+      "autocorr_30_day": 0.234,
+      "trend_slope_per_day": 0.3402,
+      "trend_r2": 0.3057,
+      "outliers": {
+        "q25": 335.65,
+        "q75": 507.74,
+        "iqr": 172.09,
+        "outlier_count": 12,
+        "outlier_pct": 1.67,
+        "upper_threshold": 765.87
+      },
+      "total_revenue": 309667.61,
+      "total_purchases": 35139,
+      "total_views": 88077
+    },
+    "united_states": {
+      "mean_daily_revenue": 333.37,
+      "std_daily_revenue": 105.5,
+      "median_daily_revenue": 323.64,
+      "weekday_mean": 301.81,
+      "weekend_mean": 412.64,
+      "weekend_lift_pct": 36.72,
+      "autocorr_7_day": 0.538,
+      "autocorr_30_day": 0.189,
+      "trend_slope_per_day": 0.2556,
+      "trend_r2": 0.2539,
+      "outliers": {
+        "q25": 258.71,
+        "q75": 388.83,
+        "iqr": 130.12,
+        "outlier_count": 15,
+        "outlier_pct": 2.08,
+        "upper_threshold": 584.01
+      },
+      "total_revenue": 240023.14,
+      "total_purchases": 27586,
+      "total_views": 69218
+    },
+    "singapore": {
+      "mean_daily_revenue": 183.17,
+      "std_daily_revenue": 62.85,
+      "median_daily_revenue": 176.77,
+      "weekday_mean": 167.91,
+      "weekend_mean": 221.51,
+      "weekend_lift_pct": 31.92,
+      "autocorr_7_day": 0.391,
+      "autocorr_30_day": 0.144,
+      "trend_slope_per_day": 0.1204,
+      "trend_r2": 0.1587,
+      "outliers": {
+        "q25": 139.84,
+        "q75": 219.01,
+        "iqr": 79.16,
+        "outlier_count": 19,
+        "outlier_pct": 2.64,
+        "upper_threshold": 337.75
+      },
+      "total_revenue": 131881.14,
+      "total_purchases": 14986,
+      "total_views": 37138
+    },
+    "germany": {
+      "mean_daily_revenue": 137.41,
+      "std_daily_revenue": 52.65,
+      "median_daily_revenue": 131.81,
+      "weekday_mean": 126.46,
+      "weekend_mean": 164.9,
+      "weekend_lift_pct": 30.4,
+      "autocorr_7_day": 0.345,
+      "autocorr_30_day": 0.164,
+      "trend_slope_per_day": 0.108,
+      "trend_r2": 0.1822,
+      "outliers": {
+        "q25": 99.91,
+        "q75": 168.79,
+        "iqr": 68.88,
+        "outlier_count": 11,
+        "outlier_pct": 1.53,
+        "upper_threshold": 272.12
+      },
+      "total_revenue": 98932.68,
+      "total_purchases": 11332,
+      "total_views": 28550
+    },
+    "france": {
+      "mean_daily_revenue": 121.61,
+      "std_daily_revenue": 49.23,
+      "median_daily_revenue": 116.37,
+      "weekday_mean": 109.51,
+      "weekend_mean": 152.01,
+      "weekend_lift_pct": 38.81,
+      "autocorr_7_day": 0.3,
+      "autocorr_30_day": 0.108,
+      "trend_slope_per_day": 0.0914,
+      "trend_r2": 0.1492,
+      "outliers": {
+        "q25": 85.92,
+        "q75": 151.82,
+        "iqr": 65.9,
+        "outlier_count": 7,
+        "outlier_pct": 0.97,
+        "upper_threshold": 250.68
+      },
+      "total_revenue": 87559.51,
+      "total_purchases": 9949,
+      "total_views": 24611
+    },
+    "eire": {
+      "mean_daily_revenue": 90.99,
+      "std_daily_revenue": 39.77,
+      "median_daily_revenue": 87.89,
+      "weekday_mean": 82.42,
+      "weekend_mean": 112.52,
+      "weekend_lift_pct": 36.53,
+      "autocorr_7_day": 0.205,
+      "autocorr_30_day": 0.05,
+      "trend_slope_per_day": 0.0617,
+      "trend_r2": 0.1041,
+      "outliers": {
+        "q25": 61.92,
+        "q75": 113.87,
+        "iqr": 51.95,
+        "outlier_count": 9,
+        "outlier_pct": 1.25,
+        "upper_threshold": 191.8
+      },
+      "total_revenue": 65512.15,
+      "total_purchases": 7485,
+      "total_views": 18535
+    },
+    "spain": {
+      "mean_daily_revenue": 62.79,
+      "std_daily_revenue": 34.31,
+      "median_daily_revenue": 59.92,
+      "weekday_mean": 56.31,
+      "weekend_mean": 79.06,
+      "weekend_lift_pct": 40.39,
+      "autocorr_7_day": 0.196,
+      "autocorr_30_day": 0.089,
+      "trend_slope_per_day": 0.0572,
+      "trend_r2": 0.1204,
+      "outliers": {
+        "q25": 36.96,
+        "q75": 82.91,
+        "iqr": 45.95,
+        "outlier_count": 12,
+        "outlier_pct": 1.67,
+        "upper_threshold": 151.84
+      },
+      "total_revenue": 45209.66,
+      "total_purchases": 5134,
+      "total_views": 12954
+    },
+    "netherlands": {
+      "mean_daily_revenue": 60.42,
+      "std_daily_revenue": 31.42,
+      "median_daily_revenue": 55.92,
+      "weekday_mean": 54.31,
+      "weekend_mean": 75.76,
+      "weekend_lift_pct": 39.5,
+      "autocorr_7_day": 0.171,
+      "autocorr_30_day": 0.032,
+      "trend_slope_per_day": 0.0451,
+      "trend_r2": 0.089,
+      "outliers": {
+        "q25": 37.94,
+        "q75": 79.91,
+        "iqr": 41.97,
+        "outlier_count": 10,
+        "outlier_pct": 1.39,
+        "upper_threshold": 142.88
+      },
+      "total_revenue": 43501.42,
+      "total_purchases": 4958,
+      "total_views": 12469
+    },
+    "australia": {
+      "mean_daily_revenue": 45.82,
+      "std_daily_revenue": 26.47,
+      "median_daily_revenue": 42.95,
+      "weekday_mean": 42.46,
+      "weekend_mean": 54.25,
+      "weekend_lift_pct": 27.75,
+      "autocorr_7_day": 0.132,
+      "autocorr_30_day": 0.085,
+      "trend_slope_per_day": 0.0367,
+      "trend_r2": 0.083,
+      "outliers": {
+        "q25": 26.96,
+        "q75": 62.92,
+        "iqr": 35.96,
+        "outlier_count": 7,
+        "outlier_pct": 0.97,
+        "upper_threshold": 116.87
+      },
+      "total_revenue": 32990.06,
+      "total_purchases": 3794,
+      "total_views": 9397
+    },
+    "belgium": {
+      "mean_daily_revenue": 31.58,
+      "std_daily_revenue": 21.84,
+      "median_daily_revenue": 27.96,
+      "weekday_mean": 28.62,
+      "weekend_mean": 39.02,
+      "weekend_lift_pct": 36.36,
+      "autocorr_7_day": 0.2,
+      "autocorr_30_day": 0.127,
+      "trend_slope_per_day": 0.0314,
+      "trend_r2": 0.0895,
+      "outliers": {
+        "q25": 14.99,
+        "q75": 45.21,
+        "iqr": 30.22,
+        "outlier_count": 8,
+        "outlier_pct": 1.11,
+        "upper_threshold": 90.53
+      },
+      "total_revenue": 22735.84,
+      "total_purchases": 2616,
+      "total_views": 6618
+    }
+  },
+  "statistical_tests": {
+    "anova_f_stat": 3042.706,
+    "anova_p_value": 0.0,
+    "kruskal_h_stat": 5593.68,
+    "kruskal_p_value": 0.0,
+    "countries_significantly_differ": true,
+    "interpretation": "Country distributions are statistically distinct (p < 0.05). Per-country modeling or country-specific features are strongly justified."
+  }
+}

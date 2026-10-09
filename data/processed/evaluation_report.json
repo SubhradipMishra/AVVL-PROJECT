@@ -1,0 +1,40 @@
+{
+  "evaluation_protocol": "Rolling Sequential Time-Based Split (No Data Leakage)",
+  "train_cutoff_date": "2019-08-24",
+  "test_horizon_days": 90,
+  "models": {
+    "baseline_naive_30d": {
+      "rmse": 2020.07,
+      "mae": 834.47,
+      "mape_pct": 12.24
+    },
+    "pooled_random_forest": {
+      "rmse": 3013.05,
+      "mae": 1143.74,
+      "mape_pct": 12.89,
+      "interval_coverage_pct": 65.38,
+      "interval_avg_width": 1019.42
+    },
+    "pooled_gradient_boosting": {
+      "rmse": 2665.79,
+      "mae": 879.38,
+      "mape_pct": 10.41,
+      "interval_coverage_pct": 90.85,
+      "interval_avg_width": 9534.54
+    },
+    "dedicated_per_country_gb": {
+      "rmse": 2593.98,
+      "mae": 1064.34,
+      "mape_pct": 16.54,
+      "interval_coverage_pct": 27.95,
+      "interval_avg_width": 1646.06
+    }
+  },
+  "performance_gain": {
+    "baseline_mape_pct": 12.24,
+    "per_country_mape_pct": 16.54,
+    "mape_reduction_points": -4.3,
+    "relative_improvement_pct": -35.13,
+    "beats_baseline": false
+  }
+}
